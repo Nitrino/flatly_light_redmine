@@ -11,7 +11,7 @@
   font-weight: normal;
   font-style: normal;
 }
-.fa, .icon {
+.fa, form .icon {
   display: inline-block;
   font-family: FontAwesome;
   font-style: normal;
@@ -225,7 +225,7 @@
 .fa-th-list:before {
   content: "\f00b";
 }
-.fa-check:before, .icon-checked:before {
+.fa-check:before, form .icon-checked:before {
   content: "\f00c";
   color: #23d2c5;
 

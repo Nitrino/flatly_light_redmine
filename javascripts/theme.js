@@ -94,6 +94,7 @@ $(document).ready(function(){
     // disableOther( 'showLeft' );
   };
   $('input[name$="q"]').attr('placeholder','Enter Search Text');
+  // $( "a" ).addClass( "fa" )
   // $('body').addClass("menu-push-toright");
 })
 
