@@ -259,3 +259,31 @@ table.progress{
   border-right: 5px !important;
   
 }
+
+/*==========FALSH NOTICE======*/
+div.flash.notice{
+  border: none;
+  border-left: 20px solid #1ABB9B;
+  background: none;
+  background-color: rgba(0,255,0,0.1);
+  padding-left: 10px;
+  border-radius: 4px;
+}
+
+/*==========CALENDAR==========*/
+#ui-datepicker-div{
+  padding: 0;
+}
+.ui-datepicker-header{
+  background: #6f7c93;
+  border: none;
+}
+.ui-corner-all, .ui-corner-bottom, .ui-corner-left, .ui-corner-bl{
+  border-radius: 0px !important;
+}
+.ui-datepicker table{
+  display: block;
+}
+.ui-datepicker table .ui-datepicker-week-col{
+  padding-left: 20px;
+}
