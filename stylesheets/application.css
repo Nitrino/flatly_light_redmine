@@ -231,7 +231,7 @@ table.list tbody tr:hover {
 
 table.list th.checkbox{
   width: 50px;
-  text-align: center;
+  text-align: none;
 }
 
 table.progress{
