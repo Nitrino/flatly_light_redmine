@@ -8,7 +8,6 @@ html{
 }
 body {
   font-family: 'Lato', Helvetika, Calibri, Arial, sans-serif;
-  color: #47a3da;
   font-size: 100%; 
   padding: 0; 
   margin: 0;
@@ -207,6 +206,7 @@ table.list{
 
 table.list th {
   background-color: #6f7c93;
+  text-align: center !important;
 }
 
 table.list tr.even{
