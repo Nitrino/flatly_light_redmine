@@ -51,11 +51,14 @@ tr.issue{ border: 1px solid #eeeff3; }
 table.list{
   border-radius: 6px;
   overflow: hidden;
-  line-height: 40px;
+  height: 50px;
   border: 2px solid #eeeff3;
   border-spacing: 0;
   color: #6b7d94;
 }
+table.list th{ color: #f5f6f7; height: 40px;}
+table.list.issues th[title='Sort by "Assigned To"'], table.list.issues th[title='Sort by "% Done"'] { width: 10%; }
+table.list.issues td{ height: 40px; }
 table.list th { background-color: #6f7c93; text-align: center !important; }
 table.list th a{ color: #f5f6f7; }
 table.list td{ vertical-align: middle; }
