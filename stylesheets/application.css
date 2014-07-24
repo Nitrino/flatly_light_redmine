@@ -120,7 +120,9 @@ label[for="q"]{
   color: #4e515e;
   margin-left: -40px;
 }
-
+#header h1 a{
+  color: #4e515e;
+}
 #header a{
   color: #fefefe;
 }
