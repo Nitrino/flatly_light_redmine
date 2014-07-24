@@ -228,4 +228,8 @@ div.flash.notice{
 .ui-datepicker table .ui-datepicker-week-col{
   padding-left: 20px;
 }
-
+#s2id_project_quick_jump_box{
+  position: fixed;
+  top: 10px;
+  right: 10px;
+}
