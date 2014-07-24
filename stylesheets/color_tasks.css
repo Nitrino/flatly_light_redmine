@@ -1,0 +1,80 @@
+/*
+1 New
+2 Assigned
+3 Resolved
+4 Feedback
+5 Closed
+*/
+
+/* new */
+tr.odd.status-1, table.list tbody tr.odd.status-1:hover { }
+tr.odd.status-1 { background: #fff; }
+tr.even.status-1, table.list tbody tr.even.status-1:hover { }
+tr.even.status-1 { background: #fff; }
+tr.status-1 a { }
+tr.odd.status-1 td, tr.even.status-1 td { border-color: #fff; }
+
+/* assigned */
+tr.odd.status-2, table.list tbody tr.odd.status-2:hover { }
+tr.odd.status-2 { background: #d9edf7; }
+tr.even.status-2, table.list tbody tr.even.status-2:hover { }
+tr.even.status-2 { background: #d9edf7; }
+tr.status-2 a { }
+tr.odd.status-2 td, tr.even.status-2 td { border-color: #d9edf7; }
+
+/* resolved */
+tr.odd.status-3, table.list tbody tr.odd.status-3:hover { }
+tr.odd.status-3 { background: #dff0d8; }
+tr.even.status-3, table.list tbody tr.even.status-3:hover { }
+tr.even.status-3 { background: #dff0d8; }
+tr.status-3 a { }
+tr.odd.status-3 td, tr.even.status-3 td { border-color:#dff0d8; }
+
+/* feedback */
+tr.odd.status-4, table.list tbody tr.odd.status-4:hover { }
+tr.odd.status-4 { background: #f2dede; }
+tr.even.status-4, table.list tbody tr.even.status-4:hover { }
+tr.even.status-4 { background: #f2dede; }
+tr.status-4 a { }
+tr.odd.status-4 td, tr.even.status-4 td { border-color:#f2dede; }
+
+/* closed */
+tr.odd.status-5, table.list tbody tr.odd.status-5:hover { }
+tr.odd.status-5 { background: #f5f5f5; }
+tr.even.status-5, table.list tbody tr.even.status-5:hover { }
+tr.even.status-5 { background: #f5f5f5; }
+tr.status-5 a { }
+tr.odd.status-5 td, tr.even.status-5 td { border-color:#f5f5f5; }
+
+/* table design*/
+tr.issue{ border: 1px solid #eeeff3; }
+table.list{
+  border-radius: 6px;
+  overflow: hidden;
+  line-height: 40px;
+  border: 2px solid #eeeff3;
+  border-spacing: 0;
+  color: #6b7d94;
+}
+table.list th { background-color: #6f7c93; text-align: center !important; }
+table.list th a{ color: #f5f6f7; }
+table.list td{ vertical-align: middle; }
+table.list tbody tr:hover { background-color: #7bbbe5; }
+table.list th.checkbox{ width: 50px; text-align: none; }
+table.progress{
+  width: 100% !important;
+  border-radius: 2px;
+  border-collapse: separate !important;
+  overflow: hidden;
+}
+table.progress td.todo{
+  height: 5px !important;
+  border-right: 5px !important;
+  background-color: #d8e3ea;
+}
+table.progress td.closed{
+  height: 5px !important;
+  border-right: 5px !important;
+  background-color: #4cbac1;
+}
+table.progress{ height: 5px !important; border-right: 5px !important; }
