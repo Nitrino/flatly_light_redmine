@@ -2,6 +2,11 @@
 
 ## Changelog
 
+### 0.0.2
+- Added colors for different statuses issues (tnx [@jongha](https://github.com/jongha) for idea)
+- Design submit buttons
+- Fix DMSF plugin styles
+
 ### 0.0.1
 - Added basic styles
 - Replaced some icons
