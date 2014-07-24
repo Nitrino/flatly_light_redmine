@@ -3,6 +3,8 @@
 @import url(http://fonts.googleapis.com/css?family=Lato:300,400,700);
 @import url(theme.css);
 @import url(color_tasks.css);
+@import url(DMSF.css);
+@import url(buttons.css);
 
 html{
   overflow-x: hidden;
@@ -195,70 +197,7 @@ label[for="q"]{
 
 /*=====TABLE=====*/
 
-table.list{
-  border-radius: 6px;
-  border-collapse: separate !important;
-  overflow: hidden;
-  line-height: 40px;
-  border: 2px solid #eeeff3;
-  border-spacing: 0;
-  color: #6b7d94;
-}
 
-table.list th {
-  background-color: #6f7c93;
-  text-align: center !important;
-}
-
-table.list tr.even{
-  background-color: #fefefe;
-}
-
-table.list tr.odd{
-  background-color: #fbfcfe;
-}
-
-table.list th a{
-  color: #f5f6f7;
-}
-
-table.list td{
-  vertical-align: middle;
-}
-
-table.list tbody tr:hover {
-  background-color: #7bbbe5;
-}
-
-table.list th.checkbox{
-  width: 50px;
-  text-align: none;
-}
-
-table.progress{
-  width: 100% !important;
-  border-radius: 2px;
-  border-collapse: separate !important;
-  overflow: hidden;
-}
-
-table.progress td.todo{
-  height: 5px !important;
-  border-right: 5px !important;
-  background-color: #d8e3ea;
-}
-
-table.progress td.closed{
-  height: 5px !important;
-  border-right: 5px !important;
-  background-color: #4cbac1;
-}
-
-table.progress{
-  height: 5px !important;
-  border-right: 5px !important;
-  
-}
 
 /*==========FALSH NOTICE======*/
 div.flash.notice{
@@ -287,3 +226,4 @@ div.flash.notice{
 .ui-datepicker table .ui-datepicker-week-col{
   padding-left: 20px;
 }
+

@@ -1,0 +1,17 @@
+/* buttons */
+input[type="submit"]{
+  border: 2px solid #d4dbe3;
+  -webkit-border-radius: 4;
+  -moz-border-radius: 4;
+  border-radius: 4px;
+  color: #647082;
+  background: #fafafc;
+  padding: 4px 7px 4px 7px;
+  text-decoration: none;
+  font-size: 15px;
+}
+
+input[type="submit"]:hover {
+  border-color: #129cf7;
+  color: #000;
+}
