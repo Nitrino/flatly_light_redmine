@@ -15,3 +15,9 @@ input[type="submit"]:hover {
   border-color: #129cf7;
   color: #000;
 }
+
+.buttons a,
+.buttons a:hover,
+.buttons a:focus {
+  text-decoration: none;
+}
