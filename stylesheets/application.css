@@ -11,8 +11,8 @@ html{
 }
 body {
   font-family: 'Lato', Helvetika, Calibri, Arial, sans-serif;
-  font-size: 100%; 
-  padding: 0; 
+  font-size: 100%;
+  padding: 0 !important;
   margin: 0;
   position: relative;
   left: 0;
@@ -78,7 +78,7 @@ h1:first-letter{
 }
 
 #menu{
-  left: 0; 
+  left: 0;
   top: 0px;
   padding-top: 3px;
   padding-right: 20px;
@@ -127,25 +127,35 @@ label[for="q"]{
   color: #fefefe;
 }
 
-#quick-search{
+#quick-search {
   position: fixed;
   left: 60px;
   top: 0;
-  padding-top: 8px;
+  /*padding-top: 8px;*/
+  height: 53px;
   margin-left: 15px;
   border: 3px;
   border: 2px solid #eeeff3;
   border-top: none;
-  width: 100%;
+  right: 0;
+  border-right: 0;
+
   background-color: rgba(255, 255, 255, 0.9);
   z-index: 101;
 }
 
+#quick-search form {
+  display: block;
+  height: 100%;
+  margin-right: 310px;
+}
+
 #quick-search input{
-  padding: 0.5em 1em 15px 2em;
+  padding-left: 0 20px;
+  height: 100%;
   /*width: calc(100% - 2em);*/
   border: none;
-  width: 400px;
+  width: 100%;
   background: transparent;
   color: rgba(0,0,0,0.8);
   font-size: 1em;
@@ -178,7 +188,11 @@ label[for="q"]{
   border-bottom: 2px solid #dee4e9;
 }
 /*=========MAIN MENU=======*/
-#main-menu li a.selected{
+#main-menu li a.selected,
+#main-menu li a.selected:hover {
+  border-bottom: 3px solid #40aff8;
+}
+#main-menu li a:hover {
   border-bottom: 3px solid #40aff8;
 }
 #main-menu li a {
@@ -193,6 +207,7 @@ label[for="q"]{
   border-bottom: 2px solid #40aff8;
 }
 #content{
+  width: 81% !important;
   background-color: #ebf1f5;
   padding-left: 20px;
 }
@@ -232,4 +247,23 @@ div.flash.notice{
   position: fixed;
   top: 10px;
   right: 10px;
+}
+
+#sidebar {
+  width: 15% !important;
+}
+#sidebarHandler {
+  margin-top: -12px !important;
+  top: 50% !important;
+}
+
+.icon-file.application-pdf {
+  background-repeat: no-repeat;
+  padding-left: 26px;
+}
+
+.icon.icon-folder:before {
+  content: "\f07b";
+  display: inline-block;
+  width: 23px;
 }
