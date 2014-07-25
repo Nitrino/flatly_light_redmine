@@ -151,8 +151,8 @@ label[for="q"]{
 }
 
 #quick-search input{
-  padding-left: 0 20px;
-  height: 100%;
+  padding: 0 20px !important;
+  height: 100%  !important;
   /*width: calc(100% - 2em);*/
   border: none;
   width: 100%;
@@ -204,10 +204,10 @@ label[for="q"]{
 #main-menu li a:hover {
   background: none;
   color: #000;
-  border-bottom: 2px solid #40aff8;
+  border-bottom: 3px solid #40aff8;
 }
 #content{
-  width: 81% !important;
+  width: 81%;
   background-color: #ebf1f5;
   padding-left: 20px;
 }
@@ -252,7 +252,9 @@ div.flash.notice{
 #sidebar {
   width: 15% !important;
 }
-#sidebarHandler {
+#sidebarHandler,
+#hideSidebarButton {
+  position: absolute !important;
   margin-top: -12px !important;
   top: 50% !important;
 }
