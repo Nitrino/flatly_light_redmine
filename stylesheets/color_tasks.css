@@ -64,8 +64,9 @@ table.list th a{ color: #f5f6f7; }
 table.list td{ vertical-align: middle; }
 table.list tbody tr:hover { background-color: #7bbbe5; }
 table.list th.checkbox{ width: 50px; text-align: none; }
+tr.issue td.done_ratio table.progress{ width: 100% !important; }
 table.progress{
-  width: 100% !important;
+  width: 80% !important;
   border-radius: 2px;
   border-collapse: separate !important;
   overflow: hidden;
