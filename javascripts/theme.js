@@ -51,7 +51,7 @@ window.classie = {
 
 })( window );
 
-$(document).ready(function(){
+function addElements (){
   $( '<div id="menu"><div class="burger"><div class="one"></div><div class="two"></div><div class="three"></div></div><div class="circle"></div></div>' ).insertBefore( $( "#top-menu" ) );
   
   var menuLeft = document.getElementById( 'top-menu' ),
@@ -68,5 +68,12 @@ $(document).ready(function(){
     classie.toggle( menuLeft, 'open' );
   };
   $( 'input[name$="q"]' ).attr( 'placeholder','Enter Search Text' );
-})
+}
 
+$(document).ready(addElements)
+
+window.onerror = function myErrorFunction(message, url, linenumber) {
+  if (location.href.indexOf("/dmsf") != -1){
+    $(document).ready(addElements)
+  }
+}
