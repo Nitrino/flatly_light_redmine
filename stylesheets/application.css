@@ -225,7 +225,17 @@ div.flash.notice{
   padding-left: 10px;
   border-radius: 4px;
 }
-
+div.flash.error, #errorExplanation{
+  border: none;
+  border-left: 20px solid #880000;
+  background: none;
+  background-color: rgba(255,0,0,0.1);
+  padding-left: 10px;
+  border-radius: 4px;
+}
+div.flash.error, #errorExplanation ul{
+  margin: 2px;
+}
 /*==========CALENDAR==========*/
 #ui-datepicker-div{
   padding: 0;
