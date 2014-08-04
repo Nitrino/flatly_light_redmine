@@ -1,6 +1,9 @@
 # Flatly light redmine theme #
 
 ## Changelog
+### 0.1
+- Added some future
+- Fixed all found bugs
 
 ### 0.0.2
 - Added colors for different statuses issues (tnx [@jongha](https://github.com/jongha) for idea)
