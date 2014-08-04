@@ -58,10 +58,10 @@ table.list{
 }
 table.list th{ color: #f5f6f7; height: 40px;}
 table.list.issues th[title='Sort by "Assigned To"'], table.list.issues th[title='Sort by "% Done"'] { width: 10%; }
-table.list.issues td{ height: 40px; }
+table.list.issues td{ height: 40px; vertical-align: middle; }
+table.list.issues td.id{ width: 35px; }
 table.list th { background-color: #6f7c93; text-align: center !important; }
 table.list th a{ color: #f5f6f7; }
-table.list.issues td{ vertical-align: middle; }
 table.list tbody tr:hover { background-color: #7bbbe5; }
 table.list th.checkbox{ width: 50px; text-align: none; }
 tr.issue td.done_ratio table.progress{ width: 100% !important; }
