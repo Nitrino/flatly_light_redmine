@@ -1,3 +1,4 @@
-a.icon.icon-file.image-jpeg{
-	background-image: none;
+.dmfs_entries a.icon.icon-file{
+	background-repeat: no-repeat;
+  padding-left: 26px;
 }
