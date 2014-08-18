@@ -289,3 +289,7 @@ select {
     display: inline-block;
     cursor:pointer;
 }
+/*=========== MY PAGE ==========*/
+tr.time-entry {
+  white-space: normal !important;
+}
