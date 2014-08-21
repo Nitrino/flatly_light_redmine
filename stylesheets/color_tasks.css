@@ -7,44 +7,44 @@
 */
 
 /* new */
-tr.odd.status-1, table.list tbody tr.odd.status-1:hover { }
-tr.odd.status-1 { background: #fff; }
-tr.even.status-1, table.list tbody tr.even.status-1:hover { }
-tr.even.status-1 { background: #fff; }
-tr.status-1 a { }
-tr.odd.status-1 td, tr.even.status-1 td { border-color: #fff; }
+tr.odd.priority-1, table.list tbody tr.odd.priority-1:hover { }
+tr.odd.priority-1 { background: #d9edf7; }
+tr.even.priority-1, table.list tbody tr.even.priority-1:hover { }
+tr.even.priority-1 { background: #d9edf7; }
+tr.priority-1 a { }
+tr.odd.priority-1 td, tr.even.priority-1 td { border-color: #d9edf7; }
 
 /* assigned */
-tr.odd.status-2, table.list tbody tr.odd.status-2:hover { }
-tr.odd.status-2 { background: #d9edf7; }
-tr.even.status-2, table.list tbody tr.even.status-2:hover { }
-tr.even.status-2 { background: #d9edf7; }
-tr.status-2 a { }
-tr.odd.status-2 td, tr.even.status-2 td { border-color: #d9edf7; }
+tr.odd.priority-2, table.list tbody tr.odd.priority-2:hover { }
+tr.odd.priority-2 { background: #fff; }
+tr.even.priority-2, table.list tbody tr.even.priority-2:hover { }
+tr.even.priority-2 { background: #fff; }
+tr.priority-2 a { }
+tr.odd.priority-2 td, tr.even.priority-2 td { border-color: #fff; }
 
 /* resolved */
-tr.odd.status-3, table.list tbody tr.odd.status-3:hover { }
-tr.odd.status-3 { background: #dff0d8; }
-tr.even.status-3, table.list tbody tr.even.status-3:hover { }
-tr.even.status-3 { background: #dff0d8; }
-tr.status-3 a { }
-tr.odd.status-3 td, tr.even.status-3 td { border-color:#dff0d8; }
+tr.odd.priority-3, table.list tbody tr.odd.priority-3:hover { }
+tr.odd.priority-3 { background: #dff0d8; }
+tr.even.priority-3, table.list tbody tr.even.priority-3:hover { }
+tr.even.priority-3 { background: #dff0d8; }
+tr.priority-3 a { }
+tr.odd.priority-3 td, tr.even.priority-3 td { border-color:#dff0d8; }
 
 /* feedback */
-tr.odd.status-4, table.list tbody tr.odd.status-4:hover { }
-tr.odd.status-4 { background: #f2dede; }
-tr.even.status-4, table.list tbody tr.even.status-4:hover { }
-tr.even.status-4 { background: #f2dede; }
-tr.status-4 a { }
-tr.odd.status-4 td, tr.even.status-4 td { border-color:#f2dede; }
+tr.odd.priority-4, table.list tbody tr.odd.priority-4:hover { }
+tr.odd.priority-4 { background: #fbf8ca; }
+tr.even.priority-4, table.list tbody tr.even.priority-4:hover { }
+tr.even.priority-4 { background: #fbf8ca; }
+tr.priority-4 a { }
+tr.odd.priority-4 td, tr.even.priority-4 td { border-color:#fbf8ca; }
 
 /* closed */
-tr.odd.status-5, table.list tbody tr.odd.status-5:hover { }
-tr.odd.status-5 { background: #f5f5f5; }
-tr.even.status-5, table.list tbody tr.even.status-5:hover { }
-tr.even.status-5 { background: #f5f5f5; }
-tr.status-5 a { }
-tr.odd.status-5 td, tr.even.status-5 td { border-color:#f5f5f5; }
+tr.odd.priority-5, table.list tbody tr.odd.priority-5:hover { }
+tr.odd.priority-5 { background: #f2dede; }
+tr.even.priority-5, table.list tbody tr.even.priority-5:hover { }
+tr.even.priority-5 { background: #f2dede; }
+tr.priority-5 a { }
+tr.odd.priority-5 td, tr.even.priority-5 td { border-color:#f2dede; }
 
 /* table design*/
 tr.issue{ border: 1px solid #eeeff3; }
