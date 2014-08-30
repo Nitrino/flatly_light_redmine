@@ -1575,3 +1575,17 @@
 .fa-bomb:before {
   content: "\f1e2";
 }
+.icon-add:before {
+  content: "\f055";
+  color: #4CBAC1;
+}
+.icon-del:before{
+  content: "\f014";
+  color: #4CBAC1;
+}
+.icon-del{
+  cursor: pointer;
+}
+a.icon-add{
+  text-decoration: none;
+}
