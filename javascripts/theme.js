@@ -53,7 +53,7 @@ window.classie = {
 
 function addElements (){
   $( '<div id="menu"><div class="burger"><div class="one"></div><div class="two"></div><div class="three"></div></div><div class="circle"></div></div>' ).insertBefore( $( "#top-menu" ) );
-  
+
   var menuLeft = document.getElementById( 'top-menu' ),
   showLeft = document.getElementById( 'menu' ),
   body = document.body,
@@ -77,3 +77,6 @@ window.onerror = function myErrorFunction(message, url, linenumber) {
     $(document).ready(addElements)
   }
 }
+$(window).load(function() {
+  $( "#quick-search form" ).css('margin-right', $( "#s2id_project_quick_jump_box" ).width() + 60);
+})
