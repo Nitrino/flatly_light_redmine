@@ -19,7 +19,7 @@
   line-height: 1;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background: none;
+  background: none !important;
   padding-left: 10px;
 }
 a.icon{ text-decoration: none; }
@@ -294,7 +294,8 @@ a.icon{ text-decoration: none; }
 .fa-list-alt:before {
   content: "\f022";
 }
-.fa-lock:before {
+.fa-lock:before,
+.icon-dmsf-lock:before {
   content: "\f023";
 }
 .fa-flag:before {
@@ -608,8 +609,10 @@ a.icon{ text-decoration: none; }
 .fa-thumb-tack:before {
   content: "\f08d";
 }
-.fa-external-link:before {
+.fa-external-link:before,
+.icon-link:before {
   content: "\f08e";
+  background-image: none;
 }
 .fa-sign-in:before {
   content: "\f090";
@@ -659,9 +662,12 @@ a.icon{ text-decoration: none; }
 .fa-hdd-o:before {
   content: "\f0a0";
 }
-.fa-bullhorn:before {
+.fa-bullhorn:before,
+.icon-notification-on:before,
+.icon-notification-off:before {
   content: "\f0a1";
 }
+.icon-notification-on:before{ color: green; }
 .fa-bell:before {
   content: "\f0f3";
 }
@@ -881,7 +887,8 @@ a.icon{ text-decoration: none; }
 .fa-cutlery:before {
   content: "\f0f5";
 }
-.fa-file-text-o:before {
+.fa-file-text-o:before,
+.icon-dmsf-file-details:before {
   content: "\f0f6";
 }
 .fa-building-o:before {
@@ -1085,7 +1092,8 @@ a.icon{ text-decoration: none; }
 .fa-anchor:before {
   content: "\f13d";
 }
-.fa-unlock-alt:before {
+.fa-unlock-alt:before,
+.icon-dmsf-unlock:before {
   content: "\f13e";
 }
 .fa-bullseye:before {
