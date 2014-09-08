@@ -170,15 +170,16 @@ label[for="q"]{
   border-bottom: 3px solid #2d3747;
   text-align: center;
   margin-top: 10px;
-}
-#top-menu #account, #top-menu #loggedas{
   float: none;
-  padding-left: 20px;
+  line-height: 25px;
+  padding-bottom: 5px;
 }
+
 #account{
   position: absolute;
   bottom: 0;
-  margin-bottom: 50px
+  margin-bottom: 50px;
+  margin-left: 20px;
 }
 
 #top-menu .logout{
@@ -295,3 +296,8 @@ table.list.messages td{ height: 40px; vertical-align: middle; }
 table.list.messages td.subject { background-position: left center; }
 table.list.messages td.author { font-size: 1em; }
 tr.message td.last_message { font-size: 100%; }
+
+/*=========== LOGO ============*/
+.redmine-logo{
+  width: 200px;
+}
