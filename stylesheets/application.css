@@ -212,10 +212,6 @@ label[for="q"]{
   padding-left: 20px;
 }
 
-/*=====TABLE=====*/
-
-
-
 /*==========FALSH NOTICE======*/
 div.flash.notice{
   border: none;
@@ -259,6 +255,7 @@ div.flash.error, #errorExplanation ul{
   right: 10px;
 }
 
+
 #sidebar {
   width: 15% !important;
 }
@@ -293,3 +290,8 @@ select {
 tr.time-entry {
   white-space: normal !important;
 }
+/*=========== FORUM ============*/
+table.list.messages td{ height: 40px; vertical-align: middle; }
+table.list.messages td.subject { background-position: left center; }
+table.list.messages td.author { font-size: 1em; }
+tr.message td.last_message { font-size: 100%; }

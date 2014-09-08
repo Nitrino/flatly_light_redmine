@@ -11,7 +11,7 @@
   font-weight: normal;
   font-style: normal;
 }
-.fa, form .icon {
+.fa, form .icon, .icon {
   display: inline-block;
   font-family: FontAwesome;
   font-style: normal;
@@ -22,6 +22,8 @@
   background: none;
   padding-left: 10px;
 }
+a.icon{ text-decoration: none; }
+.icon:before{ color: #4CBAC1; }
 .fa:before, .icon:before{
   margin-right: 3px;
   font-size: 17px;
@@ -204,10 +206,12 @@
 .fa-heart:before {
   content: "\f004";
 }
-.fa-star:before {
+.fa-star:before, .icon-fav:before {
+  color: #FEC44F;
   content: "\f005";
+  ;
 }
-.fa-star-o:before {
+.fa-star-o:before, .icon-fav-off:before {
   content: "\f006";
 }
 .fa-user:before {
@@ -258,7 +262,8 @@
 .fa-file-o:before {
   content: "\f016";
 }
-.fa-clock-o:before {
+.fa-clock-o:before,
+.icon-time-add:before {
   content: "\f017";
 }
 .fa-road:before {
@@ -285,7 +290,6 @@
 }
 .fa-refresh:before, .icon-reload:before {
   content: "\f021";
-  color: #4cbac1;
 }
 .fa-list-alt:before {
   content: "\f022";
@@ -377,7 +381,8 @@
 .fa-picture-o:before {
   content: "\f03e";
 }
-.fa-pencil:before {
+.fa-pencil:before,
+.icon-edit:before {
   content: "\f040";
 }
 .fa-map-marker:before {
@@ -438,7 +443,7 @@
 .fa-chevron-right:before {
   content: "\f054";
 }
-.fa-plus-circle:before {
+.fa-plus-circle:before, a.icon-add:before {
   content: "\f055";
 }
 .fa-minus-circle:before {
@@ -724,7 +729,8 @@
   content: "\f0c4";
 }
 .fa-copy:before,
-.fa-files-o:before {
+.fa-files-o:before,
+.icon-copy:before {
   content: "\f0c5";
 }
 .fa-paperclip:before {
@@ -1577,15 +1583,10 @@
 }
 .icon-add:before {
   content: "\f055";
-  color: #4CBAC1;
 }
 .icon-del:before{
   content: "\f014";
-  color: #4CBAC1;
 }
 .icon-del{
   cursor: pointer;
-}
-a.icon-add{
-  text-decoration: none;
 }
