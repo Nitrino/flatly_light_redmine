@@ -46,7 +46,7 @@ h1:first-letter{
 
 #top-menu a {
   color: #a0abbe;
-  margin-right: 20px;
+  margin-right: 0px;
   font-size: 16px;
 }
 
@@ -299,5 +299,10 @@ tr.message td.last_message { font-size: 100%; }
 
 /*=========== LOGO ============*/
 .redmine-logo{
+  margin: auto;
   width: 200px;
+  height: 45px;
+  background-image: url('../images/redmine_logo.png');
+  background-size: 200px;
+  background-repeat: no-repeat;
 }

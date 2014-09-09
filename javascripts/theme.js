@@ -48,39 +48,42 @@
     remove: removeClass,
     toggle: toggleClass
   };
+
+  function addElements (){
+    $( '<div id="menu"><div class="burger"><div class="one"></div><div class="two"></div><div class="three"></div></div><div class="circle"></div></div>' ).insertBefore( $( "#top-menu" ) );
+    $( "#loggedas" ).prepend( "<div class='redmine-logo'></div>" );
+    var menuLeft = document.getElementById( 'top-menu' ),
+    showLeft = document.getElementById( 'menu' ),
+    body = document.body,
+    search = document.getElementById( 'quick-search' ),
+    menuButton = document.getElementById( 'menu' );
+
+    showLeft.onclick = function() {
+      classie.toggle( this, 'active' );
+      classie.toggle( body, 'menu-push-toright' );
+      classie.toggle( menuButton, 'menu-push-toright' );
+      classie.toggle( search, 'menu-push-toright' );
+      classie.toggle( menuLeft, 'open' );
+    };
+    $( 'input[name$="q"]' ).attr( 'placeholder','Enter Search Text' );
+  }
+
+  $(document).ready(addElements)
+
+  $(window).load(function() {
+    $( "#quick-search form" ).css('margin-right', $( "#s2id_project_quick_jump_box" ).width() + 60);
+  })
   $( document ).on( "click", "#main, #header", function() {
     $( "#top-menu" ).removeClass( "open" );
     $( ".menu-push-toright" ).removeClass( "menu-push-toright" );
   });
+
+  window.onerror = function myErrorFunction(message, url, linenumber) {
+    if (location.href.indexOf("/dmsf") != -1){
+      $(document).ready(addElements)
+    }
+  }
+
 })( window );
 
-function addElements (){
-  $( '<div id="menu"><div class="burger"><div class="one"></div><div class="two"></div><div class="three"></div></div><div class="circle"></div></div>' ).insertBefore( $( "#top-menu" ) );
-  $( "#loggedas" ).prepend( "<img src='/themes/flatly light/images/redmine_logo.png' class='redmine-logo'>" );
-  var menuLeft = document.getElementById( 'top-menu' ),
-  showLeft = document.getElementById( 'menu' ),
-  body = document.body,
-  search = document.getElementById( 'quick-search' ),
-  menuButton = document.getElementById( 'menu' );
 
-  showLeft.onclick = function() {
-    classie.toggle( this, 'active' );
-    classie.toggle( body, 'menu-push-toright' );
-    classie.toggle( menuButton, 'menu-push-toright' );
-    classie.toggle( search, 'menu-push-toright' );
-    classie.toggle( menuLeft, 'open' );
-  };
-  $( 'input[name$="q"]' ).attr( 'placeholder','Enter Search Text' );
-}
-
-$(document).ready(addElements)
-
-window.onerror = function myErrorFunction(message, url, linenumber) {
-  if (location.href.indexOf("/dmsf") != -1){
-    $(document).ready(addElements)
-  }
-}
-$(window).load(function() {
-  $( "#quick-search form" ).css('margin-right', $( "#s2id_project_quick_jump_box" ).width() + 60);
-
-})
