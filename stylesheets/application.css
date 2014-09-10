@@ -181,8 +181,7 @@ label[for="q"]{
   margin-bottom: 50px;
   margin-left: 20px;
 }
-
-#account .tt_start{
+#account .tt_start, #account .tt_stop{
   padding: 0px;
 }
 #top-menu .logout{

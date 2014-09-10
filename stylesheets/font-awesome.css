@@ -245,7 +245,8 @@ a.icon{ text-decoration: none; }
 .fa-search-minus:before {
   content: "\f010";
 }
-.fa-power-off:before {
+.fa-power-off:before,
+.icon-stop.tt_stop:before {
   content: "\f011";
 }
 .fa-signal:before {
