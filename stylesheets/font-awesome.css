@@ -11,6 +11,8 @@
   font-weight: normal;
   font-style: normal;
 }
+a.icon{ font-family: 'Lato', Helvetika, Calibri, Arial, sans-serif; }
+.icon:before{ font-family: FontAwesome; }
 .fa, form .icon, .icon {
   display: inline-block;
   font-family: FontAwesome;
@@ -263,7 +265,8 @@ a.icon{ text-decoration: none; }
   content: "\f016";
 }
 .fa-clock-o:before,
-.icon-time-add:before {
+.icon-time-add:before,
+.icon-start:before {
   content: "\f017";
 }
 .fa-road:before {

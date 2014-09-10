@@ -182,6 +182,9 @@ label[for="q"]{
   margin-left: 20px;
 }
 
+#account .tt_start{
+  padding: 0px;
+}
 #top-menu .logout{
   color: #ad66ad;
 }
