@@ -11,7 +11,6 @@
   font-weight: normal;
   font-style: normal;
 }
-a.icon{ font-family: 'Lato', Helvetika, Calibri, Arial, sans-serif; }
 .icon:before{ font-family: FontAwesome; }
 .fa, form .icon, .icon {
   display: inline-block;
@@ -24,7 +23,10 @@ a.icon{ font-family: 'Lato', Helvetika, Calibri, Arial, sans-serif; }
   background: none !important;
   padding-left: 10px;
 }
-a.icon{ text-decoration: none; }
+a.icon{
+  text-decoration: none;
+  font-family: 'Lato', Helvetika, Calibri, Arial, sans-serif;
+}
 .icon:before{ color: #4CBAC1; }
 .fa:before, .icon:before{
   margin-right: 3px;
