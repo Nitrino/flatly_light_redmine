@@ -12,7 +12,7 @@
   font-style: normal;
 }
 .icon:before{ font-family: FontAwesome; }
-.fa, form .icon, .icon {
+.fa, form .icon, .icon{
   display: inline-block;
   font-family: FontAwesome;
   font-style: normal;
@@ -22,6 +22,12 @@
   -moz-osx-font-smoothing: grayscale;
   background: none !important;
   padding-left: 10px;
+}
+#context-menu li>a{
+  font-family: 'Lato', Helvetika, Calibri, Arial, sans-serif;
+}
+#context-menu li>a:before{
+  content: none;
 }
 a.icon{
   text-decoration: none;
