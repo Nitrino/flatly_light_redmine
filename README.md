@@ -30,7 +30,7 @@
 ![](https://raw.githubusercontent.com/Nitrino/flatly_light_redmine/master/screenshots/screen_3.png)
 
 ## Enable static sidebar
-To activate the static sidebar set `aktiveSlideSidebar = false` in `javascripts/theme.js` file
+To activate the static sidebar set `var activeStaticSidebar = true` in `javascripts/theme.js` file
 
 ![](https://raw.githubusercontent.com/Nitrino/flatly_light_redmine/master/screenshots/screen_4.png)
 

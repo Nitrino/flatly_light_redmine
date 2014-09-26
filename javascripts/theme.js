@@ -1,8 +1,8 @@
 ( function( window ) {
 
   'use strict';
-  /* set false to enable static sidebar */
-  var activeSlideSidebar = true
+  /* set true to enable static sidebar */
+  var activeStaticSidebar = false
 
   function classReg( className ) {
     return new RegExp("(^|\\s+)" + className + "(\\s+|$)");
@@ -67,7 +67,7 @@
       classie.toggle( menuLeft, 'open' );
     };
   }
-  if (activeSlideSidebar) {
+  if (!activeStaticSidebar) {
     $(document).ready(addElements)
   }
   function addLogo () {
@@ -79,7 +79,7 @@
   $(window).load(function() {
     $( "#quick-search form" ).css('margin-right', $( "#s2id_project_quick_jump_box" ).width() + 60);
     $( 'input[name$="q"]' ).attr( 'placeholder','Enter Search Text' );
-    if (!activeSlideSidebar) {
+    if (activeStaticSidebar) {
       $( "#wrapper3" ).css( "margin-left", "215px" );
       $( "#quick-search" ).css( "left", "200px" );
       $( "#top-menu" ).css( "left", "0" );
@@ -96,7 +96,7 @@
   window.onerror = function myErrorFunction(message, url, linenumber) {
     if (location.href.indexOf("/dmsf") != -1){
       $(document).ready(addLogo)
-      if (activeSlideSidebar) {
+      if (!activeStaticSidebar) {
         $(document).ready(addElements)
       }
     }
