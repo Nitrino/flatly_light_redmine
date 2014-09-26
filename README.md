@@ -29,6 +29,10 @@
 
 ![](https://raw.githubusercontent.com/Nitrino/flatly_light_redmine/master/screenshots/screen_3.png)
 
+## Enable static sidebar
+To activate the static sidebar set `aktiveSlideSidebar = false` in `javascripts/theme.js` file
+![](https://raw.githubusercontent.com/Nitrino/flatly_light_redmine/master/screenshots/screen_4.png)
+
 ## Contributing
 1. Fork it
 2. Create your feature branch (`git checkout -b my-new-feature`)
