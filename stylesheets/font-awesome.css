@@ -548,7 +548,8 @@ a.icon{
 .fa-random:before {
   content: "\f074";
 }
-.fa-comment:before {
+.fa-comment:before,
+.icon-comment:before {
   content: "\f075";
 }
 .fa-magnet:before {
@@ -1223,7 +1224,8 @@ a.icon{
 .fa-sort-numeric-desc:before {
   content: "\f163";
 }
-.fa-thumbs-up:before {
+.fa-thumbs-up:before,
+.icon-unvote:before {
   content: "\f164";
 }
 .fa-thumbs-down:before {

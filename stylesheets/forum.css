@@ -1,0 +1,86 @@
+/*=========== FORUM ============*/
+table.list.messages td{ height: 40px; vertical-align: middle; }
+table.list.messages td.subject { background-position: left center; }
+table.list.messages td.author { font-size: 1em; }
+tr.message td.last_message { font-size: 100%; }
+.message.details{
+  background: #f6f6f6;
+  padding: 10px;
+  border: 1px solid #d7d7d7;
+}
+.controller-messages .contextual{
+  margin: 10px;
+}
+.controller-messages p.breadcrumb {
+  padding: 8px 15px;
+  margin-bottom: 20px;
+  list-style: none;
+  background-color: #f5f5f5;
+  border-radius: 4px;
+  font-size: 1em;
+}
+.controller-messages div.message.details p.author {
+  margin-top: -4px;
+  line-height: 22px;
+}
+.controller-messages div.message.details img.gravatar {
+  margin-right: 10px;
+}
+.message.reply .contextual{
+  margin-top: 0px;
+}
+.message.reply {
+  background-color: #f5f5f5;
+  padding: 10px;
+}
+.controller-messages .pagination{
+  float: right;
+}
+a[onclick="$('#reply').toggle(); $('#message_content').focus(); return false;"]{
+  border: 2px solid #d4dbe3;
+  -webkit-border-radius: 4;
+  -moz-border-radius: 4;
+  border-radius: 4px;
+  color: #647082;
+  background: #fff;
+  padding: 4px 7px 4px 7px;
+  text-decoration: none;
+  font-size: 15px;
+}
+/* TODO: Find a way rewrite it */
+a[onclick="$('#reply').toggle(); $('#message_content').focus(); return false;"]:hover {
+  border-color: #129cf7;
+  color: #000;
+}
+.controller-messages .previous,
+.controller-messages .page,
+.controller-messages .items,
+.controller-messages .next{
+  position: relative;
+  float: left;
+  padding: 5px 12px;
+  margin-left: -1px;
+  line-height: 1.42857143;
+  color: #428bca;
+  text-decoration: none;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  -webkit-border: 1px solid #ddd;
+  -moz-border: 1px solid #ddd;
+}
+.controller-messages .items{
+  color: #647082;
+}
+.controller-messages .previous:hover,
+.controller-messages .page:hover,
+.controller-messages .next:hover{
+  color: #2a6496;
+  background-color: #eee;
+  border-color: #ddd;
+}
+.controller-messages .current, .controller-messages .current:hover{
+  color: #fff;
+  cursor: default;
+  background-color: #428bca;
+  border-color: #428bca;
+}
