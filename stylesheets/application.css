@@ -309,3 +309,10 @@ tr.message td.last_message { font-size: 100%; }
   background-size: 200px;
   background-repeat: no-repeat;
 }
+/*=========== RedmineCRM ======*/
+/* TODO: Find a way rewrite it */
+select[onchange="if (this.value != '') { window.location = this.value; }"]{
+  position: fixed;
+  top: 17px;
+  right: 10px;
+}
