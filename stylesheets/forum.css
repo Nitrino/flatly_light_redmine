@@ -3,6 +3,7 @@ table.list.messages td{ height: 40px; vertical-align: middle; }
 table.list.messages td.subject { background-position: left center; }
 table.list.messages td.author { font-size: 1em; }
 tr.message td.last_message { font-size: 100%; }
+.controller-messages  div.message.details .wiki{ padding-top: 0px; }
 .message.details{
   background: #f6f6f6;
   padding: 10px;
@@ -52,4 +53,3 @@ a[onclick="$('#reply').toggle(); $('#message_content').focus(); return false;"]:
   border-color: #129cf7;
   color: #000;
 }
-
