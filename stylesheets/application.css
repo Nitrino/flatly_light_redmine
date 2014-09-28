@@ -6,6 +6,8 @@
 @import url(DMSF.css);
 @import url(buttons.css);
 @import url(forum.css);
+@import url(news.css);
+@import url(pagination.css);
 
 html{
   overflow-x: hidden;

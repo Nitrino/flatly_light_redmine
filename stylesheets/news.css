@@ -1,0 +1,25 @@
+.controller-news.action-index h3,
+.controller-news.action-index .author,
+.controller-news.action-index div.wiki{
+  margin: 0px;
+  padding: 10px;
+  background-color: #f6f6f6;
+  color: #505050;
+  line-height: 1.5em;
+  border-left: 1px solid #e4e4e4;
+  border-right: 1px solid #e4e4e4;
+}
+.controller-news.action-index h3{ border-top: 1px solid #e4e4e4; }
+.controller-news.action-index div.wiki p{
+  margin-top: -5px;
+  margin-bottom: 0px;
+}
+.controller-news.action-index div.wiki{
+  border-bottom: 1px solid #e4e4e4;
+  margin-bottom: 10px;
+}
+.controller-news.action-index .author{
+  border: none;
+  float: right;
+  margin-top: -45px;
+}

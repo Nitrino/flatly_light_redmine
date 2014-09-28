@@ -52,35 +52,4 @@ a[onclick="$('#reply').toggle(); $('#message_content').focus(); return false;"]:
   border-color: #129cf7;
   color: #000;
 }
-.controller-messages .previous,
-.controller-messages .page,
-.controller-messages .items,
-.controller-messages .next{
-  position: relative;
-  float: left;
-  padding: 5px 12px;
-  margin-left: -1px;
-  line-height: 1.42857143;
-  color: #428bca;
-  text-decoration: none;
-  background-color: #fff;
-  border: 1px solid #ddd;
-  -webkit-border: 1px solid #ddd;
-  -moz-border: 1px solid #ddd;
-}
-.controller-messages .items{
-  color: #647082;
-}
-.controller-messages .previous:hover,
-.controller-messages .page:hover,
-.controller-messages .next:hover{
-  color: #2a6496;
-  background-color: #eee;
-  border-color: #ddd;
-}
-.controller-messages .current, .controller-messages .current:hover{
-  color: #fff;
-  cursor: default;
-  background-color: #428bca;
-  border-color: #428bca;
-}
+
