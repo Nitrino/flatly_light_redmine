@@ -8,6 +8,7 @@
 @import url(forum.css);
 @import url(news.css);
 @import url(pagination.css);
+@import url(redminebacklogs.css);
 
 html{
   overflow-x: hidden;

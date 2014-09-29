@@ -825,7 +825,8 @@ a.icon{
   content: "\f0dc";
 }
 .fa-sort-down:before,
-.fa-sort-desc:before {
+.fa-sort-desc:before,
+.ui-icon-carat-1-s:before {
   content: "\f0dd";
 }
 .fa-sort-up:before,

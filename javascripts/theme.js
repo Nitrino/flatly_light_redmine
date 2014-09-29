@@ -92,9 +92,8 @@
     $( "#top-menu" ).removeClass( "open" );
     $( ".menu-push-toright" ).removeClass( "menu-push-toright" );
   });
-
   window.onerror = function myErrorFunction(message, url, linenumber) {
-    if (location.href.indexOf("/dmsf") != -1){
+    if (location.href.indexOf("/dmsf") != -1 || location.href.indexOf("/master_backlog") != -1){
       $(document).ready(addLogo)
       if (!activeStaticSidebar) {
         $(document).ready(addElements)
@@ -103,5 +102,3 @@
   }
 
 })( window );
-
-
