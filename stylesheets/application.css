@@ -240,6 +240,14 @@ div.flash.error, #errorExplanation{
 div.flash.error, #errorExplanation ul{
   margin: 2px;
 }
+p.nodata{
+  border: none;
+  border-left: 20px solid #FDBF3B;
+  background: none;
+  background-color: #FFEBC1;
+  padding-left: 10px;
+  border-radius: 4px;
+}
 /*==========CALENDAR==========*/
 #ui-datepicker-div{
   padding: 0;
@@ -315,3 +323,4 @@ select[onchange="if (this.value != '') { window.location = this.value; }"]{
   top: 17px;
   right: 10px;
 }
+
