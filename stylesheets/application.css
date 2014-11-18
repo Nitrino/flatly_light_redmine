@@ -297,8 +297,6 @@ p.nodata{
 div.issue { background: #f6f6f6; }
 /*============ SELECT ==========*/
 select {
-    background: #fff;
-    border-color: #cccccc;
     outline:none;
     display: inline-block;
     cursor:pointer;
