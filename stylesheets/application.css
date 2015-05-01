@@ -95,6 +95,12 @@ h1:first-letter{
   background-color: rgba(255, 255, 255, 0.9);
 }
 
+@media print {
+  #menu {
+    display: none;
+  }
+}
+
 #top-menu.open{
   left: 0;
 }
