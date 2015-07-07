@@ -196,6 +196,9 @@ label[for="q"]{
   border-bottom: 2px solid #dee4e9;
 }
 /*=========MAIN MENU=======*/
+#main-menu {
+  margin-right:0;
+}
 #main-menu li a.selected,
 #main-menu li a.selected:hover {
   border-bottom: 3px solid #40aff8;
@@ -208,6 +211,7 @@ label[for="q"]{
   text-transform: uppercase;
   margin-left: 20px;
   padding: 4px 5px 4px 5px;
+  border-bottom: 3px solid #fff;
 }
 #main-menu li a:hover {
   background: none;
