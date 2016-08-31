@@ -10,6 +10,7 @@
 @import url(pagination.css);
 @import url(redminebacklogs.css);
 @import url(activity.css);
+@import url(projects.css);
 
 html{
   overflow-x: hidden;
@@ -327,4 +328,3 @@ select[onchange="if (this.value != '') { window.location = this.value; }"]{
   top: 17px;
   right: 10px;
 }
-

@@ -1,6 +1,9 @@
 # Flatly light redmine theme #
 
 ## Changelog
+### 0.1.1
+- Added separate projects in projects list
+
 ### 0.1
 - Added some future
 - Fixed all found bugs
