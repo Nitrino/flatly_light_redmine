@@ -6,6 +6,7 @@
   border: 1px solid #d7d7d7;
   margin: 0 0 10px 25px;
   padding: 10px 0 0 10px;
+  line-height: 24px;
 }
 .controller-activities #content div > a{
   border: 2px solid #d4dbe3;
@@ -21,4 +22,8 @@
 .controller-activities #content div > a:hover {
   border-color: #129cf7;
   color: #000;
+}
+
+div#activity dd, #search-results dd {
+  line-height: 22px;
 }
