@@ -35,7 +35,7 @@ tr.message td.last_message { font-size: 100%; }
   margin: 0;
 }
 .controller-messages.action-show .message.reply p{
-  padding: 0;
+  padding: 10px 0 10px 0;;
 }
 .controller-messages.action-show .message.reply div.attachments {
   margin-top: 8px;
