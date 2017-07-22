@@ -163,14 +163,14 @@ label[for="q"]{
 
 #quick-search input{
   padding: 0 20px !important;
-  height: 100%  !important;
+  height: auto;
   /*width: calc(100% - 2em);*/
   border: none;
   width: 100%;
   background: transparent;
   color: rgba(0,0,0,0.8);
   font-size: 1em;
-  line-height: 1;
+  line-height: 24px;
   /*opacity: 0;*/
   -webkit-transition: opacity 0.8s;
   transition: opacity 0.s;
@@ -178,8 +178,20 @@ label[for="q"]{
 
 #project-jump.drdn {
   position: absolute;
-  right: 0;
+  right: 10px;
   top: 90px;
+  border-radius: 5px;
+}
+
+#project-jump .drdn-trigger {
+  line-height: 24px;
+  height: auto;
+}
+#project-jump .drdn-content {
+  border-radius: 5px;
+}
+#project-jump .drdn-content .quick-search {
+  margin: 5px;
 }
 
 #top-menu #loggedas{
