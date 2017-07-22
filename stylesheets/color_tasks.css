@@ -56,9 +56,9 @@ table.list{
   border-spacing: 0;
   color: #6b7d94;
 }
-table.list th{ color: #f5f6f7; height: 40px;}
+table.list th{ color: #f5f6f7;}
 table.list.issues th[title='Sort by "Assigned To"'], table.list.issues th[title='Sort by "% Done"'] { width: 10%; }
-table.list.issues td{ height: 40px; vertical-align: middle; }
+table.list.issues td{ vertical-align: middle; }
 table.list.issues td.id{ width: 35px; }
 table.list th { background-color: #6f7c93; text-align: center !important; }
 table.list th a{ color: #f5f6f7; }
