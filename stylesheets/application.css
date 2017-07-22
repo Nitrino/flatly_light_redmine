@@ -33,6 +33,9 @@ h1, h2, h3, h4 {
 h1:first-letter{
   text-transform: capitalize;
 }
+input:focus {
+  outline-width: 0;
+}
 #top-menu{
   background: #FFF;
   border-bottom: 4px solid #47a3da;
@@ -171,7 +174,7 @@ label[for="q"]{
   background: transparent;
   color: rgba(0,0,0,0.8);
   font-size: 1em;
-  line-height: 24px;
+  line-height: 28px;
   /*opacity: 0;*/
   -webkit-transition: opacity 0.8s;
   transition: opacity 0.s;
@@ -180,19 +183,21 @@ label[for="q"]{
 #project-jump.drdn {
   position: absolute;
   right: 10px;
-  top: 90px;
-  border-radius: 5px;
+  top: 50%;
+  transform: translateY(-50%);
+  border-radius: 0;
 }
 
 #project-jump .drdn-trigger {
-  line-height: 24px;
+  line-height: 28px;
   height: auto;
+  border-radius: 0;
 }
 #project-jump .drdn-content {
-  border-radius: 5px;
+  border-radius: 0;
 }
 #project-jump .drdn-content .quick-search {
-  margin: 5px;
+  margin: 0;
 }
 
 #top-menu #loggedas{
