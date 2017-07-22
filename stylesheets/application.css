@@ -150,10 +150,15 @@ label[for="q"]{
   z-index: 101;
 }
 
+#quick-search #q {
+  width: 100%;
+  border: none;
+}
+
 #quick-search form {
   display: block;
   height: 100%;
-  margin-right: 310px;
+  margin-right: 0;
 }
 
 #quick-search input{
@@ -169,6 +174,12 @@ label[for="q"]{
   /*opacity: 0;*/
   -webkit-transition: opacity 0.8s;
   transition: opacity 0.s;
+}
+
+#project-jump.drdn {
+  position: absolute;
+  right: 0;
+  top: 90px;
 }
 
 #top-menu #loggedas{
