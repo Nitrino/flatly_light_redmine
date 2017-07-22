@@ -328,6 +328,9 @@ p.nodata{
 #sidebar {
   width: 15% !important;
 }
+#sidebar ul, ul.flat {
+  line-height: 24px;
+}
 #sidebarHandler,
 #hideSidebarButton {
   position: absolute !important;
