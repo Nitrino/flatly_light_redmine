@@ -1,5 +1,5 @@
 table.list td, table.list th {
-  line-height: 40px;
+  height: 40px;
   vertical-align: middle;
 }
 td.name, td.username, td.firstname, td.lastname, td.email {
