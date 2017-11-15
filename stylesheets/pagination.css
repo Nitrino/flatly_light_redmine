@@ -1,4 +1,4 @@
-.previous, .page, .items, .next{
+.previous, .page, .items, .next, .current{
   position: relative;
   float: left;
   padding: 5px 12px;
@@ -12,6 +12,7 @@
   -moz-border: 1px solid #ddd;
 }
 .items{
+  clear: both;
   color: #647082;
 }
 .previous:hover,
