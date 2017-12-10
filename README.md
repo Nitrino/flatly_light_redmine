@@ -1,6 +1,9 @@
 # Flatly light redmine theme #
 
 ## Changelog
+### 0.2
+- Fixes for new versions of Redmine
+
 ### 0.1.1
 - Added separate projects in projects list
 
