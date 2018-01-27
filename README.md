@@ -1,6 +1,11 @@
 # Flatly light redmine theme #
 
 ## Changelog
+
+### 0.2.1
+- Fix projects list for redmine 3.4.3 #61 
+- Disable redmine responsive #59
+
 ### 0.2
 - Fixes for new versions of Redmine
 
