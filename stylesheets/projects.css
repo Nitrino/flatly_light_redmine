@@ -4,7 +4,7 @@ ul.projects li.root {
   border: 1px solid #d7d7d7;
 }
 
-.theme-Flatly.light.redmine  #projects-index {
+.theme-Flatly.light.redmine #projects-index {
   column-count: unset;
   column-width: unset;
   -webkit-column-count: unset;
