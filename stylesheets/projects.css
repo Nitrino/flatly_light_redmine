@@ -3,3 +3,10 @@ ul.projects li.root {
   padding: 10px;
   border: 1px solid #d7d7d7;
 }
+
+.theme-Flatly.light.redmine  #projects-index {
+  column-count: unset;
+  column-width: unset;
+  -webkit-column-count: unset;
+  -webkit-column-width: unset;
+}
