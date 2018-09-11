@@ -2,8 +2,12 @@
 
 ## Changelog
 
+### 0.2.2
+- Fix projects list page styles #64
+- Fix opening left menu when enabled authentication required #63
+
 ### 0.2.1
-- Fix projects list for redmine 3.4.3 #61 
+- Fix projects list for redmine 3.4.3 #61
 - Disable redmine responsive #59
 
 ### 0.2
