@@ -63,7 +63,9 @@
       classie.toggle( this, 'active' );
       classie.toggle( body, 'menu-push-toright' );
       classie.toggle( menuButton, 'menu-push-toright' );
-      classie.toggle( search, 'menu-push-toright' );
+      if (search != null) {
+        classie.toggle( search, 'menu-push-toright' );
+      }
       classie.toggle( menuLeft, 'open' );
     };
   }
