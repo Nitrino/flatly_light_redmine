@@ -2,6 +2,9 @@
 
 ## Changelog
 
+### 0.2.3
+- Fix DMSF plugin table header text color #65
+
 ### 0.2.2
 - Fix projects list page styles #64
 - Fix opening left menu when enabled authentication required #63
