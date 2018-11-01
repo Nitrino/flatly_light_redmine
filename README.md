@@ -1,44 +1,12 @@
 # Flatly light redmine theme #
-
-## Changelog
-
-### 0.2.3
-- Fix DMSF plugin table header text color #65
-
-### 0.2.2
-- Fix projects list page styles #64
-- Fix opening left menu when enabled authentication required #63
-
-### 0.2.1
-- Fix projects list for redmine 3.4.3 #61
-- Disable redmine responsive #59
-
-### 0.2
-- Fixes for new versions of Redmine
-
-### 0.1.1
-- Added separate projects in projects list
-
-### 0.1
-- Added some future
-- Fixed all found bugs
-
-### 0.0.2
-- Added colors for different statuses issues (tnx [@jongha](https://github.com/jongha) for idea)
-- Design submit buttons
-- Fix DMSF plugin styles
-
-### 0.0.1
-- Added basic styles
-- Replaced some icons
+Modern and readability theme for Redmine.
 
 ## Installation
 
-* Download the theme
-* Unzip it into your Redmine theme directory (e.g. ` ../public/themes/`)
-* Restart Redmine to make the new installed theme available in your theme list
-* Select it from the "Theme" dropdown box list by visiting the administration area: `"Administration / Settings / Display"`
-* Save your changes in order to display the `flatly light` theme
+* Download and unzip theme into your Redmine themes directory (e.g. ` ../public/themes/`)
+* Restart Redmine to make the newly installed theme available in your theme list.
+* Go to `"Administration / Settings / Display"` and choose this theme in themes list.
+* Save your changes.
 
 ## Screenshots
 ![](https://raw.githubusercontent.com/Nitrino/flatly_light_redmine/master/screenshots/screen_1.png)
