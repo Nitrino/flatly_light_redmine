@@ -202,6 +202,7 @@ label[for="q"]{
 }
 #project-jump .drdn-content {
   border-radius: 0;
+  width: fit-content;
 }
 #project-jump .drdn-content .quick-search {
   margin: 0;
