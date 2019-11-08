@@ -1,5 +1,8 @@
 ## Changelog
 
+### 0.2.4
+- Fit project names in drop-down #66
+
 ### 0.2.3
 - Fix DMSF plugin table header text color #65
 
